@@ -2,7 +2,6 @@
 The Last Password Generator You Would Ever Need.
 
 # Full Stack Portfolio
-```md
     ![alt text](assets/images/mockup.png)
     ```
 
@@ -35,5 +34,7 @@ This is a completly secure password generator, which uses no logic at all while 
 
 ## Features
 Uses windows/browser prompts for added security
+
+
 
 
