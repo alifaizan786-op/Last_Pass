@@ -2,8 +2,8 @@
 The Last Password Generator You Would Ever Need.
 
 # Full Stack Portfolio
-    ![alt text](assets/images/mockup.png)
-    ```
+ ![alt text](assets/images/mockup.png)
+
 
 ## Table of Contents (Optional)
 - [About](#about)
