@@ -2,7 +2,7 @@
 The Last Password Generator You Would Ever Need.
 
 # Full Stack Portfolio
- ![alt text](assets/images/mockup.png)
+ ![alt text](Assets/Images/mockup.png)
 
 
 ## Table of Contents (Optional)
