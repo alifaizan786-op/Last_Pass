@@ -12,19 +12,25 @@ function writePassword() {
 
 function generatePassword() {
   userinput = +(prompt("How many Characters should your password contain?  please enter a number between 8 and 128"))
-  if (!userinput) {
+  if (isNaN(userinput) || userinput < 8 || userinput > 128) {
     alert("A number between 8 and 128 is required")
-    return userinput
   }
   else if ( userinput < 8 || userinput > 128){
     prompt("number must be between 8 and 128")
+    return userinput
   }
   else {
-    containsNum = confirm ("Will this password contain number ?")
-    containsSym = confirm ("Will this password contain symbols ?")
-    containsLoAlpha = confirm ("Will this password contain lower case alphabets ?")
-    containsUpAlpha = confirm ("Will this password contain upper case alphabets ?")
+  containsNum = confirm ("Will this password contain number ?")
+  containsSym = confirm ("Will this password contain symbols ?")
+  containsLoAlpha = confirm ("Will this password contain lower case alphabets ?")
+  containsUpAlpha = confirm ("Will this password contain upper case alphabets ?")
   }
+  
+  
+  
+  
+  
+
   console.log(userinput);
   console.log(containsNum);
   console.log(containsSym);
